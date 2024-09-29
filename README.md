@@ -1,50 +1,86 @@
-# Welcome to your Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# Travel App
 
-## Get started
+Travel App is an Expo-based React Native project designed to help users plan their travel experiences with the help of Firebase Authentication and Database services. The app allows users to sign up, log in, and access personalized travel plans based on their preferences.
 
-1. Install dependencies
+## Features
+
+- Firebase Authentication (Sign In, Sign Up)
+- Personalized Travel Planning
+- Integration with Firebase Firestore for managing user data
+- User-friendly UI with React Native components
+
+## Screenshots
+
+> Include some screenshots here to show the interface of the app (optional).
+
+## APK Download
+
+You can download the latest APK for the **Travel App** from the link below:
+
+[Download Travel App APK](https://github.com/AshKatale/travel-app/releases/latest)
+
+## Installation
+
+### Prerequisites
+
+- Node.js and npm installed
+- Expo CLI installed globally (`npm install -g expo-cli`)
+
+### Steps to run the project locally:
+
+1. Clone the repository:
 
    ```bash
+   git clone https://github.com/AshKatale/travel-app.git
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   cd travel-app
    npm install
    ```
 
-2. Start the app
+3. Create a `.env` file in the root directory and add your environment variables (Firebase API keys, etc.):
 
    ```bash
-    npx expo start
+   API_KEY=your-api-key
+   AUTH_DOMAIN=your-auth-domain
    ```
 
-In the output, you'll find options to open the app in a
+4. Start the Expo development server:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+   ```bash
+   expo start
+   ```
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+5. Scan the QR code with the Expo Go app on your mobile device to run the app locally.
 
-## Get a fresh project
+## Building APK
 
-When you're ready, run:
+To build the APK file for Android, follow these steps:
 
-```bash
-npm run reset-project
-```
+1. Install EAS CLI:
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+   ```bash
+   npm install -g eas-cli
+   ```
 
-## Learn more
+2. Configure `eas.json`:
 
-To learn more about developing your project with Expo, look at the following resources:
+   Ensure your `eas.json` file includes the necessary environment variables and Android build configuration.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+3. Build the APK:
 
-## Join the community
+   ```bash
+   eas build -p android --profile production
+   ```
 
-Join our community of developers creating universal apps.
+## Contributing
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Feel free to contribute to this project by opening issues and submitting pull requests.
+
+## License
+
+This project is licensed under the MIT License.
