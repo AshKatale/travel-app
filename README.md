@@ -1,21 +1,22 @@
 
-# AI Travel Planner 
+# AI Travel Planner
 
-Travel App is an Expo-based React Native project designed to help users plan their travel experiences with the help of Firebase Authentication and Database services. The app allows users to sign up, log in, and access personalized travel plans based on their preferences.
+AI Travel Planner is an Expo-based React Native project designed to help users plan their travel experiences effortlessly with the help of various APIs. The app allows users to sign up, log in, and access personalized travel plans based on their preferences.
 
-## Features
+## Key Features
 
-- Firebase Authentication (Sign In, Sign Up)
-- Personalized Travel Planning
-- Integration with Firebase Firestore for managing user data
-- User-friendly UI with React Native components
-- Use of Gemini AI model for trip planning
+- **Firebase Authentication**: Secure user login and registration.
+- **Personalized Travel Planning**: Users can create and manage their travel itineraries.
+- **Gemini API Integration**: Utilizes the Gemini API for intelligent trip planning, ensuring users have the best options for their travels.
+- **Map API**: Enables users to search for places easily.
+- **Places Photo API**: Fetches stunning images of various locations to enhance the user experience.
+- **User-Friendly Interface**: Built with React Native components for a seamless mobile experience.
 
 ## APK Download
 
-You can download the latest APK for the **Travel App** from the link below:
+You can download the latest APK for the **AI Travel Planner** from the link below:
 
-[Download Travel App APK](https://github.com/AshKatale/travel-app/releases/latest)
+[Download AI Travel Planner APK](https://github.com/AshKatale/travel-app/releases/latest) <!-- update with the link after uploading the APK -->
 
 ## Installation
 
@@ -49,7 +50,7 @@ You can download the latest APK for the **Travel App** from the link below:
 4. Start the Expo development server:
 
    ```bash
-   npx expo start
+    npx expo start
    ```
 
 5. Scan the QR code with the Expo Go app on your mobile device to run the app locally.
