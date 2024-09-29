@@ -9,10 +9,7 @@ Travel App is an Expo-based React Native project designed to help users plan the
 - Personalized Travel Planning
 - Integration with Firebase Firestore for managing user data
 - User-friendly UI with React Native components
-
-## Screenshots
-
-> Include some screenshots here to show the interface of the app (optional).
+- Use of Gemini AI model for trip planning
 
 ## APK Download
 
@@ -52,7 +49,7 @@ You can download the latest APK for the **Travel App** from the link below:
 4. Start the Expo development server:
 
    ```bash
-   expo start
+   npx expo start
    ```
 
 5. Scan the QR code with the Expo Go app on your mobile device to run the app locally.
