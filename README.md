@@ -1,5 +1,5 @@
 
-# Travel App
+# AI Travel Planner 
 
 Travel App is an Expo-based React Native project designed to help users plan their travel experiences with the help of Firebase Authentication and Database services. The app allows users to sign up, log in, and access personalized travel plans based on their preferences.
 
